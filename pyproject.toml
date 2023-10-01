@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "adamoptimization"
+version = "0.1.0"
+description = ""
+authors = ["tessatiu <gadjiew.rasim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+tensorflow = "^2.14.0"
+keras = "^2.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
